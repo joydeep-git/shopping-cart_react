@@ -1,0 +1,102 @@
+.CardDetails1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.itemDetails1 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.itemImg1 img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.actions1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.itemCount1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.itemCount1 button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.itemCount1 input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.itemRemove1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .item1,  .itemDetails1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemData1 {
+        text-align: center;
+        gap: 0;
+    }
+
+    .itemImg1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .actions1{
+        flex-direction: column;
+    }
+}
